@@ -1,0 +1,28 @@
+.medya{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+video{
+    width: 25rem;
+    margin: 12px;
+    padding: 12px;
+}
+
+.medyaBaslik{
+    /* width: max-content; */
+    padding: 12px;
+ 
+    border-bottom: 5px solid #ccc;
+    
+    width: 25%;
+    margin:0 auto;
+   
+    text-align: center;
+    
+}
+
+body{
+    background-image: url(resimler/arkaplan2.jpg);
+}
