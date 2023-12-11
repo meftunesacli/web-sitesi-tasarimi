@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* box-sizing: border-box;
+herhangi bir taşma olmasın */
+.navbar{
+    /* sadece linkler ve h2 yanyana geldi
+    daha sonra ul li leri yan yana ve logo yuda öle dedik aşağıda
+    sonra hem ul leri hemde logoyu yan yana getirdik ikiside
+    linklerde olduğu için display flexle onlarıda öl e yaptık
+     align-items: center; ile hepsini ortaladık aynı hizada 
+     olmasını sağladık ama logo ortalanmıyor orayada align item yapıyoz
+     */
+    display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+.navbar ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.linkler{
+    display: flex;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+a{
+font-size: larger;
+font-weight: bolder;
+padding: 8px;
+transition: 0.3s;
+}
+
+ul li a:hover{
+    background-color:white ;
+    color: black;
+}
