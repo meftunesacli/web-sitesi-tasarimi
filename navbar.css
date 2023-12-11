@@ -44,14 +44,14 @@ herhangi bir taşma olmasın */
     text-decoration: none;
     color: white;
 }
-a{
+.navbar a{
 font-size: larger;
 font-weight: bolder;
 padding: 8px;
 transition: 0.3s;
 }
 
-ul li a:hover{
+.navbar ul li a:hover{
     background-color:white ;
     color: black;
 }
