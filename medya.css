@@ -1,13 +1,15 @@
 .medya{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+   
+   
 }
 
 video{
-    width: 25rem;
-    margin: 12px;
-    padding: 12px;
+    width: 24rem;
+    margin: 2px;
+    padding: 2px;
 }
 
 .medyaBaslik{
@@ -16,8 +18,8 @@ video{
  
     border-bottom: 5px solid #ccc;
     
-    width: 25%;
-    margin:0 auto;
+    /* width: 25%;
+    margin:0 auto; */
    
     text-align: center;
     
@@ -26,3 +28,6 @@ video{
 body{
     background-image: url(resimler/arkaplan2.jpg);
 }
+/* 
+flex-direction: column;
+align-items: center ; ile alt alta ve ortalı yapabiliriz */
